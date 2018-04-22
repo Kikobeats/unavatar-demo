@@ -5,7 +5,7 @@ const DEFAULT_META = {
   description: 'Get the user avatar based on username, email or domain across multiple services, such as Twitter, GitHub, Gravatar, etc.',
   image: 'https://unavatar.now.sh/banner.png',
   logo: 'https://unavatar.now.sh/logo.png',
-  url: 'https://unavatar-demo.now.sh',
+  url: 'https://unavatar.netlify.com',
   author: 'Kikobeats'
 }
 
