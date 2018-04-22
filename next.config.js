@@ -2,6 +2,12 @@ const path = require('path')
 const glob = require('glob')
 
 module.exports = {
+  async exportPathMap () {
+    return {
+      '/': { page: '/' }
+    }
+  },
+
   webpack: (config, { dev }) => {
     config.module.rules.push(
       {
